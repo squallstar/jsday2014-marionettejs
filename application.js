@@ -11,3 +11,9 @@ App.on("initialize:after", function(options){
     Backbone.history.start();
   }
 });
+
+App.addRegions({
+  headerRegion: "#header-region",
+  mainRegion: "#main-region"
+  footerRegion: "#footer-region"
+});
