@@ -1,6 +1,6 @@
 App = new Backbone.Marionette.Application();
 
-App.rootRoute = 'welcome';
+App.rootRoute = 'posts';
 
 App.on("initialize:before", function(options){
   // do something (if needed, ofc)

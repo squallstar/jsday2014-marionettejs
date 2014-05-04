@@ -1,9 +1,9 @@
-App.module("BlogApp.Posts", function(Posts, App, Backbone, Marionette, $, _){
+App.module("BlogApp.Posts", function(Posts, App, B, M, $, _){
 
   Posts.Controller = {
     Show: function(){
       var layout = new Posts.View(new App.Entities.Posts);
-      App.mainRegion.show(layout)
+      App.mainRegion.show(layout);
     }
   };
 
