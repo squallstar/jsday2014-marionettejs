@@ -1,6 +1,17 @@
 [
   {
     "id"    : 1,
-    "title" : "JSDay 2014"
+    "title" : "My first post",
+    "description" : "Lorem ipsum dolor sit amet"
+  },
+  {
+    "id"    : 2,
+    "title" : "Hello world from the JSDay",
+    "description" : "Marionette.js is very cool"
+  },
+  {
+    "id"    : 3,
+    "title" : "Foo bar rulez",
+    "description" : "Alice meets Bob"
   }
 ]

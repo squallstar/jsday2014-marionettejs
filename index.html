@@ -2,6 +2,7 @@
   <head>
     <title>JSDay2014 - Marionette</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 
     <!-- libs -->
     <script src="javascript/vendor/jquery.js"></script>
@@ -30,9 +31,12 @@
     <div id="footer-region"></div>
 
     <script type="text/template" class="post-template">
-      <h2>
-        <%- title %>
-      </h2>
+      <a href="#"><%- title %></a>
+    </script>
+
+    <script type="text/template" class="posts-template">
+      <h1>My nice blog</h1>
+      <ul></ul>
     </script>
 
     <script>
