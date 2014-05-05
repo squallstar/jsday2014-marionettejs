@@ -9,6 +9,9 @@
     <script src="javascript/vendor/backbone.js"></script>
     <script src="javascript/vendor/backbone.marionette.js"></script>
 
+    <!-- configs -->
+    <script src="javascript/config/marionette/renderer.js"></script>
+
     <!-- marionette application file -->
     <script src="javascript/boot.js"></script>
 
@@ -18,12 +21,19 @@
     <!-- modules -->
     <script src="javascript/apps/blog/app.js"></script>
     <script src="javascript/apps/blog/posts/controller.js"></script>
+    <script src="javascript/apps/blog/posts/view.js"></script>
 
   </head>
   <body>
     <div id="header-region"></div>
     <div id="main-region"></div>
     <div id="footer-region"></div>
+
+    <script type="text/template" class="post-template">
+      <h2>
+        <%- title %>
+      </h2>
+    </script>
 
     <script>
     App.start({
