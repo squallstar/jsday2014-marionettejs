@@ -10,9 +10,6 @@
     <script src="javascript/vendor/backbone.js"></script>
     <script src="javascript/vendor/backbone.marionette.js"></script>
 
-    <!-- configs -->
-    <script src="javascript/config/marionette/renderer.js"></script>
-
     <!-- marionette application file -->
     <script src="javascript/boot.js"></script>
 
@@ -30,11 +27,11 @@
     <div id="main-region"></div>
     <div id="footer-region"></div>
 
-    <script type="text/template" class="post-template">
+    <script type="template" id="post-template">
       <a href="#"><%- title %></a>
     </script>
 
-    <script type="text/template" class="posts-template">
+    <script type="template" id="posts-template">
       <h1>My nice blog</h1>
       <ul></ul>
     </script>

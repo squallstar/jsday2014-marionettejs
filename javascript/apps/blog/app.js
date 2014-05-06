@@ -26,4 +26,12 @@ App.module("BlogApp", function(BlogApp, App, Backbone, Marionette, $, _){
     });
   });
 
+  // define your request
+  App.reqres.setHandler("show:post", function(id){
+    Backbone.history.navigate("posts/" + id, true);
+  });
+
+  // use it
+  App.request("show:post", 3);
+
 });
